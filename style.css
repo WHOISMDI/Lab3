@@ -1,0 +1,41 @@
+h1, h2, span {
+	color: red;
+}
+
+div p {
+    font-weight: 600;
+}
+
+ul li>span {
+    font-weight: 600;
+}
+
+ol li + li {
+    list-style: none;
+}
+
+h3 ~ h4 {
+    color: aqua;
+}
+
+.block {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.block:nth-child(odd) {
+    background-color: lime;
+}
+
+.block:nth-child(even) {
+    background-color: aqua;
+}
+
+.block_border {
+    border: 4px solid blue;
+}
+
+.block_border p {
+    margin: 0;
+}
